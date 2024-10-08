@@ -8,7 +8,7 @@ interface MenuItem {
   course: string;
   price: string;
 }
-
+//User interface for HomeScreen.tsx
 interface HomeScreenProps {
   navigation: any;
   menuItems: MenuItem[];

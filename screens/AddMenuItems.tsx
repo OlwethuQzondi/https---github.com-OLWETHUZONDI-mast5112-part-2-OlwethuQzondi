@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
-
+//User interface for AddMenuItems.tsx
 interface AddMenuItemProps {
   navigation: any;
   addMenuItem: (item: { dishName: string; description: string; course: string; price: string }) => void;
